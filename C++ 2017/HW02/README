@@ -1,0 +1,9 @@
+-> Your program should have at least one function that takes a parameter by reference and a constant parameter by reference.
+   you can check out from saveAndLoad.h and board.h
+
+-> Your program should have at least one function that uses default arguments
+   you can check out from check.h in lowerCase function.
+
+-> Your program should have at least one auto statement and one declrtype statement.
+   auto : you can check out from board.cpp in initializeBoard function, move.cpp - getLocation func.
+   declrtype statement : check.cpp
