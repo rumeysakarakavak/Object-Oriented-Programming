@@ -1,0 +1,52 @@
+mov R3, 10; load value 10 to the register 3
+ADD R1, 10; increment R1
+SUB R3, 1;	decrement R3
+JMP R3, 6;	if R3 is 0 then go to line 6
+JMP 2;		go to line 2
+mov R3, 9; load value 9 to the register 3
+ADD R1, 9; increment R1
+SUB R3, 1; decrement R3
+JMP R3, 11;	if R3 is 0 then go to line 11
+JMP 7;		go to line 7
+mov R3, 8; load value 8 to the register 3
+ADD R1, 8; increment R1
+SUB R3, 1; decrement R3
+JMP R3, 16;	if R3 is 0 then go to line 16
+JMP 12;		go to line 12
+mov R3, 7; load value 7 to the register 3
+ADD R1, 7; increment R1
+SUB R3, 1; decrement R3
+JMP R3, 21;	if R3 is 0 then go to line 21
+JMP 17;		go to line 17
+mov R3, 6; load value 6 to the register 3
+ADD R1, 6; increment R1
+SUB R3, 1; decrement R3
+JMP R3, 26;	if R3 is 0 then go to line 26
+JMP 22;		go to line 22
+mov R3, 5; load value 5 to the register 3
+ADD R1, 5; increment R1
+SUB R3, 1; decrement R3
+JMP R3, 31;	if R3 is 0 then go to line 31
+JMP 27;		go to line 27
+mov R3, 4; load value 4 to the register 3
+ADD R1, 4; increment R1
+SUB R3, 1; decrement R3
+JMP R3, 36;	if R3 is 0 then go to line 36
+JMP 32;		go to line 32
+mov R3, 3; load value 3 to the register 3
+ADD R1, 3; increment R1
+SUB R3, 1; decrement R3
+JMP R3, 41;	if R3 is 0 then go to line 41
+JMP 37;		go to line 37
+mov R3, 2; load value 2 to the register 3
+ADD r1, 2; increment R1
+SUB R3, 1; decrement R3
+JMP R3, 46;	if R3 is 0 then go to line 46
+JMP 42;		go to line 42
+mov R3, 1; load value 1 to the register 3
+ADD R1, 1; increment R1
+SUB R3, 1; decrement R3
+JMP R3, 51;	if R3 is 0 then go to line 51
+JMP 47;		go to line 47
+prn R1;		print R1 value
+hlt;		finish program

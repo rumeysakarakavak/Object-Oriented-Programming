@@ -1,0 +1,78 @@
+MOV #0, 30 ;__________________________________________
+MOV #1, 23 ;
+MOV #2, 4  ;
+MOV #3, 56 ;
+MOV #4, 34 ;
+MOV #5, 56 ;  copy the constant to memory address.
+MOV #6, 89 ;
+MOV #7, 32 ;
+MOV #8, 45 ;
+MOV #9, 25 ;__________________________________________
+MOV R3, 10 ;  copy 10 to R1
+MOV #0, R1 ;__________________________________________
+SUB R1, #1 ;  beginning loop
+JPN R1, 19 ; 
+MOV #0, R1 ; 
+MOV #1, R2 ; 
+MOV R2, #0 ;
+MOV R1, #1 ;
+MOV #1, R1 ;
+SUB R1, #2 ;
+JPN R1, 26 ;
+MOV #1, R1 ;
+MOV #2, R2 ;
+MOV R2, #1 ;
+MOV R1, #2 ;
+MOV #2, R1 ;
+SUB R1, #3 ;
+JPN R1, 33 ;
+MOV #2, R1 ;
+MOV #3, R2 ;
+MOV R2, #2 ;
+MOV R1, #3 ;
+MOV #3, R1 ;
+SUB R1, #4 ;
+JPN R1, 40 ;
+MOV #3, R1 ;	copy the memory value to temp register.
+MOV #4, R2 ;
+MOV R2, #3 ;
+MOV R1, #4 ;	substract memory value from temp.
+MOV #4, R1 ;
+SUB R1, #5 ;
+JPN R1, 47 ;	if temp value greater than 0,
+MOV #4, R1 ;
+MOV #5, R2 ;	swap address value 
+MOV R2, #4 ;
+MOV R1, #5 ;
+MOV #5, R1 ;
+SUB R1, #6 ;
+JPN R1, 54 ;
+MOV #5, R1 ;
+MOV #6, R2 ;
+MOV R2, #5 ;
+MOV R1, #6 ;
+MOV #6, R1 ;
+SUB R1, #7 ;
+JPN R1, 61 ;
+MOV #6, R1 ;
+MOV #7, R2 ;
+MOV R2, #6 ;
+MOV R1, #7 ;
+MOV #7, R1 ;
+SUB R1, #8 ;
+JPN R1, 68 ;
+MOV #7, R1 ;
+MOV #8, R2 ;
+MOV R2, #7 ;
+MOV R1, #8 ;
+MOV #8, R1 ;
+SUB R1, #9 ;
+JPN R1, 75 ;
+MOV #8, R1 ;
+MOV #9, R2 ;
+MOV R2, #8 ;
+MOV R1, #9 ;
+SUB R3, 1  ;
+JMP R3, 78 ;	ending loop
+JMP 13 ;	__________________________________________
+HLT ;
